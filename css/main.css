@@ -1,0 +1,102 @@
+html {
+  background-color: black;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: white;
+}
+.hero {
+  position: fixed;
+  top: 0;
+  background: linear-gradient(
+                     rgba(20,20,20, .5),
+                     rgba(20,20,20, .5)),
+                     url(../img/hardwood-floor.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+}
+.hero:after {
+  bottom: 9vh;
+  color: #fff;
+  content: "﹀";
+  font-size: 4rem;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0);
+}
+.logo {
+  color: white;
+  position: absolute;
+  top: 25%;
+  margin: 0 auto;
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  font-size: 3em;
+}
+.logo span {
+  border-left: 0.1rem solid white;
+  padding-left: 2rem;
+  margin-left: 2rem;
+}
+.subtitle {
+  font-size: 2rem;
+  top: 33%;
+  letter-spacing: 0.15rem;
+}
+.snapshot-container {
+  height: 1321px;
+  margin-top: 80%;
+  background: linear-gradient(
+                     rgba(20,20,20, .5),
+                     rgba(20,20,20, .5)),
+                     url(../img/star-table.jpg);
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  z-index: 1000;
+  position: relative;
+}
+.projects-container {
+  height: 1321px;
+  background: linear-gradient(
+                     rgba(20,20,20, .5),
+                     rgba(20,20,20, .5)),
+                     url(../img/flower-in-vase.jpg);
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  z-index: 1000;
+  position: relative
+}
+.content {
+  background-color: rgba();
+  width: 35%;
+  text-align: left;
+  margin: auto;
+}
+.content-header {
+  font-size: 3rem;
+  padding-top: 40%;
+}
+.snapshot {
+  font-size: 1.7rem;
+  padding-top: 8%;
+  line-height: 2.5rem;
+}
+.footer {
+
+}
