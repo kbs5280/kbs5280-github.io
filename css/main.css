@@ -10,8 +10,8 @@ body {
   position: fixed;
   top: 0;
   background: linear-gradient(
-                     rgba(20,20,20, .5),
-                     rgba(20,20,20, .5)),
+                     rgba(20,20,20, 0.7),
+                     rgba(20,20,20, 0.7)),
                      url(../img/hardwood-floor.jpg);
   background-attachment: fixed;
   background-size: cover;
@@ -23,7 +23,7 @@ body {
   width: 100%;
 }
 .hero:after {
-  bottom: 9vh;
+  bottom: 6vh;
   color: #fff;
   content: "﹀";
   font-size: 4rem;
@@ -47,16 +47,17 @@ body {
   margin-left: 2rem;
 }
 .subtitle {
+  color: #FFC300;
   font-size: 2rem;
-  top: 33%;
+  top: 36%;
   letter-spacing: 0.15rem;
 }
 .snapshot-container {
-  height: 1321px;
+  height: 82.5rem;
   margin-top: 80%;
   background: linear-gradient(
-                     rgba(20,20,20, .5),
-                     rgba(20,20,20, .5)),
+                     rgba(20,20,20, 0.7),
+                     rgba(20,20,20, 0.7)),
                      url(../img/star-table.jpg);
   background-size: cover;
   -webkit-background-size: cover;
@@ -68,10 +69,10 @@ body {
   position: relative;
 }
 .projects-container {
-  height: 1321px;
+  height: 82.5rem;
   background: linear-gradient(
-                     rgba(20,20,20, .5),
-                     rgba(20,20,20, .5)),
+                     rgba(20,20,20, 0.7),
+                     rgba(20,20,20, 0.7)),
                      url(../img/flower-in-vase.jpg);
   background-size: cover;
   -webkit-background-size: cover;
@@ -90,13 +91,27 @@ body {
 }
 .content-header {
   font-size: 3rem;
-  padding-top: 40%;
+  padding-top: 10rem;
+  color: #FFC300
 }
 .snapshot {
   font-size: 1.7rem;
-  padding-top: 8%;
+  padding-top: 4rem;
   line-height: 2.5rem;
 }
 .footer {
-
+  z-index: 1000;
+  font-size: 1.5rem;
+  position: relative;
+  padding: 1rem;
+  background-color: black;
+  text-align: center;
+}
+.footer-content {
+  color: #FFC300;
+  margin: 2.8rem;
+  opacity: 0.5;
+}
+.footer-content span {
+  font-style: italic;
 }
