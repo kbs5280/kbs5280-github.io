@@ -12,7 +12,7 @@ body {
   background: linear-gradient(
                      rgba(20,20,20, 0.6),
                      rgba(20,20,20, 0.6)),
-                     url(../img/hardwood-floor.jpg);
+                     url(../img/macbook.jpg);
   background-attachment: fixed;
   background-size: cover;
   -webkit-background-size: cover;
@@ -58,7 +58,7 @@ body {
   background: linear-gradient(
                      rgba(20,20,20, 0.6),
                      rgba(20,20,20, 0.6)),
-                     url(../img/star-table.jpg);
+                     url(../img/yeti.jpg);
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -73,7 +73,7 @@ body {
   background: linear-gradient(
                      rgba(20,20,20, 0.6),
                      rgba(20,20,20, 0.6)),
-                     url(../img/flower-in-vase.jpg);
+                     url(../img/turing.jpg);
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -95,7 +95,7 @@ body {
   color: #FFC300
 }
 .snapshot {
-  font-size:calc(100% + 0.8vw);
+  font-size: 2rem;
   padding-top: 2rem;
   line-height: 3rem;
   letter-spacing: 1.5px;
