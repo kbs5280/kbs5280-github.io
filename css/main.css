@@ -6,13 +6,23 @@ body {
   font-weight: 100;
   color: white;
 }
+p {
+  font-size: 1.4rem;
+  padding-top: 2rem;
+  line-height: 130%;
+}
+p span {
+  font-weight: 300;
+}
+
+/* HERO AND LOGO */
 .hero {
   position: fixed;
   top: 0;
   background: linear-gradient(
-                     rgba(20,20,20, 0.7),
-                     rgba(20,20,20, 0.7)),
-                     url(../img/hardwood-floor.jpg);
+                     rgba(20,20,20, 0.6),
+                     rgba(20,20,20, 0.6)),
+                     url(../img/macbook.jpg);
   background-attachment: fixed;
   background-size: cover;
   -webkit-background-size: cover;
@@ -26,39 +36,40 @@ body {
   bottom: 6vh;
   color: #fff;
   content: "﹀";
-  font-size: 4rem;
+  font-size: 2.5rem;
   left: 50%;
   position: absolute;
   transform: translate(-50%, 0);
 }
 .logo {
   color: white;
-  position: absolute;
-  top: 25%;
-  margin: 0 auto;
-  width: 100%;
+  font-size: 2rem;
   height: 30%;
+  margin: 0 auto;
+  position: absolute;
   text-align: center;
-  font-size: 3em;
+  top: 36%;
+  width: 100%;
 }
 .logo span {
   border-left: 0.1rem solid white;
-  padding-left: 2rem;
   margin-left: 2rem;
+  padding-left: 2rem;
 }
 .subtitle {
   color: #FFC300;
-  font-size: 2rem;
-  top: 36%;
+  font-size: 1.5rem;
+  top: 46%;
   letter-spacing: 0.15rem;
 }
+ /* PAGES AND CONTENT */
 .snapshot-container {
   height: 82.5rem;
   margin-top: 80%;
   background: linear-gradient(
-                     rgba(20,20,20, 0.7),
-                     rgba(20,20,20, 0.7)),
-                     url(../img/star-table.jpg);
+                     rgba(20,20,20, 0.6),
+                     rgba(20,20,20, 0.6)),
+                     url(../img/yeti.jpg);
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -71,9 +82,9 @@ body {
 .projects-container {
   height: 82.5rem;
   background: linear-gradient(
-                     rgba(20,20,20, 0.7),
-                     rgba(20,20,20, 0.7)),
-                     url(../img/flower-in-vase.jpg);
+                     rgba(20,20,20, 0.6),
+                     rgba(20,20,20, 0.6)),
+                     url(../img/turing.jpg);
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -81,7 +92,8 @@ body {
   background-position: center center;
   background-attachment: fixed;
   z-index: 1000;
-  position: relative
+  position: relative;
+  margin-top: 20%;
 }
 .content {
   background-color: rgba();
@@ -90,25 +102,29 @@ body {
   margin: auto;
 }
 .content-header {
-  font-size: 3rem;
-  padding-top: 10rem;
+  font-size: 2rem;
+  padding-top: 12vh;
   color: #FFC300
 }
-.snapshot {
-  font-size: 1.7rem;
-  padding-top: 4rem;
-  line-height: 2.5rem;
+.disclosure {
+  font-style: italic;
+  font-size: 1rem;
+  margin-top: 2rem;
+  line-height: 1.5rem;
 }
+
+/* FOOTER */
 .footer {
   z-index: 1000;
   font-size: 1.5rem;
   position: relative;
-  padding: 1rem;
+  padding: 0.3rem;
   background-color: black;
   text-align: center;
 }
 .footer-content {
   color: #FFC300;
+  font-size: 1.2rem;
   margin: 2.8rem;
   opacity: 0.5;
 }
